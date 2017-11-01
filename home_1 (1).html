@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memes</title>
+    <style>
+        #container{
+            border: 1px solid ;
+            margin-top: 70px;
+            margin-right: 200px;
+            margin-bottom: 100px;
+            margin-left: 200px;
+            
+            
+            
+        }
+        
+        #container{
+            background-color: skyblue;
+        }
+        
+        #body{
+            background-image: url(fundo.png)            
+        }
+    </style>
+
+    
+    <script>
+       var pontos = 0;
+
+
+       function contagem() {
+        ver();
+           if (pontos == 10){
+               alert("Parabéns, você conseguiu 10 pontos")
+           }
+        alert("Sua pontuação foi: " + pontos); 
+        if (pontos != 10) {
+        pontos = 0;
+       }
+       }
+
+
+var q1 = 1
+
+function ver() {
+    if (q1 == document.forms["p1"].elements["p1"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p2"].elements["p2"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p3"].elements["p3"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p4"].elements["p4"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p5"].elements["p5"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p6"].elements["p6"].value) {
+        pontos ++;
+    }
+    if (q1== document.forms["p7"].elements["p7"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p8"].elements["p8"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p9"].elements["p9"].value) {
+        pontos ++;
+    }
+    if (q1 == document.forms["p10"].elements["p10"].value) {
+        pontos ++;
+    }    
+}
+        
+    function novaJanela(){
+        document.location.href="gabarito.html";
+    }
+        
+    </script>
+</head>
+    
+<body id="body">
+    <div id="container">
+    <header>
+    <center><h1>Questionário: Memes</h1></center>
+    </header>
+    
+    
+    <center><article>
+        <form name="p1"><br><br><br><b>Qual é a principal difusora de memes brasileiros?</b><br><br>
+            <input type="radio" name="p1" id="p1" value="0">Twitter<br>
+            <input type="radio" name="p1"  id="p1" value="0">Memeland<br>
+            <input type="radio" name="p1" id="p1" value="0">Memeguy<br>
+			<input type="radio" name="p1" id="p1" value="1">South America memes<br><br>
+        </form>
+        
+        <form name="p2"><b>Chaves é um seriado de enorme sucesso no Brasil, e não poderia deixar de ser um meme. Qual é o meme mais conhecido relacionado à chaves?</b><br><br>
+            <input type="radio" name="p2" id="p2" value="1">Seu madruga will go on<br>
+            <input type="radio" name="p2" id="p2" value="0">Chaves Chavão<br>
+            <input type="radio" name="p2" id="p2" value="0">Chaves e seu barril<br>
+            <input type="radio" name="p2" id="p2" value="0">Seu madruga professor<br><br></form>
+        
+        <form name="p3"><b>Os memes atingiram também a indústria musical, lançando para o mundo gêneros como o Funk e o "V A P O R W A V E". Que música representa o gênero vaporwave sendo um dos maiores memes da internet?</b><br><br>
+        
+        
+            <input type="radio" name="p3" id="p3" value="0">Home-Ressonance<br>
+            <input type="radio" name="p3" id="p3"value="0">SAINT PEPSI - ENJOY YOURSELF<br>
+            <input type="radio" name="p3" id="p3"value="1">Vektroid - macintosh plus<br>
+            <input type="radio" name="p3" id="p3"value="0">Bag Raiders - Shooting Stars<br><br></form>
+        
+        <form name="p4"><b>Animais sempre são alvos de milhões de views, mas no início da era dos memes, um gato músico roubou a cena, que gato era esse?</b><br><br>
+        
+            <input type="radio" name="p4" id="p4" value="0">Sax Cat  <br>
+            <input type="radio" name="p4" id="p4" value="1">Keyboard Cat<br>
+            <input type="radio" name="p4" id="p4" value="0">Guitar Cat<br>
+            <input type="radio" name="p4" id="p4" value="0">Singer Cat<br><br></form>
+        
+        <form name="p5"><b>Qual é o nome do meme a seguir? <br><img src="nyan.jpeg"></b><br><br>
+        
+            <input type="radio" name="p5" id="p5" value="0">Rainbow Road<br>
+            <input type="radio" name="p5" id="p5" value="0">Star<br>
+            <input type="radio" name="p5" id="p5" value="0">Nyan Dog<br>
+            <input type="radio" name="p5" id="p5" value="1">Nyan Cat<br><br></form>
+        
+        
+        <form name="p6"><b>Na internet, surgiram expressões como "Rick rolled", que seria uma espécie de "você foi trollado". Que música foi responsável por emplacar essa expressão ao ser tocada em vídeos com clickbaits?</b><br><br>
+            <input type="radio" name="p6" id="p6" value="0">George Michael - Careless Whisper<br>
+            <input type="radio" name="p6" id="p6" value="0">Queen - I Want To Break Free<br>
+            <input type="radio" name="p6" id="p6" value="0">Berlin - Take My Breathe Away<br>
+            <input type="radio" name="p6" id="p6" value="1">Rick Astley - Never Gonna Give You Up<br><br></form>
+        
+        
+       <form name="p7"><b>Qual é o nome desse meme?</b><br>
+            <center><img src="trollface.jpg"></center>
+            <input type="radio" name="p7" id="p7" value="0">Forever Alone <br>
+            <input type="radio" name="p7" id="p7" value="0">Fuck Yeah<br>
+            <input type="radio" name="p7" id="p7" value="1">Troll Face<br>
+            <input type="radio" name="p7" id="p7" value="0">Me gusta<br><br></form>
+        
+        <form name="p8"><b>Qual é o modelo de faca manuseado pelo mestre das facas?</b><br><br>
+            <input type="radio" name="p8" id="p8" value="0">Faca mp9<br>
+            <input type="radio" name="p8" id="p8" value="1">Faca ak47<br>
+            <input type="radio" name="p8" id="p8" value="0">Faca de cozinha<br>
+            <input type="radio" name="p8" id="p8" value="0">Faca de pão<br><br></form>
+    
+        <form name="p9"><b>Quando alguém faz um comentário ou postagem ruim, as pessoas cotumam responder com a imagem de um super-herói hospitalizado, provavelmente com câncer para indicar o mal que o comentário/postagem fez. Que super-herói é esse?</b><br><br>
+            <input type="radio" name="p9" id="p9" value="0">Batman<br>
+            <input type="radio" name="p9" id="p9" value="0">Sr Incrível<br>
+            <input type="radio" name="p9" id="p9" value="1">Homem-aranha<br>
+            <input type="radio" name="p9" id="p9" value="0">Thor<br><br></form>
+        
+       <form name="p10"> <b>Quem é o responsável pelo meme do esporro nos alunos de direito?</b><br><br>
+            <input type="radio" name="p10" id="p10" value="0">Gugu Liberato <br>
+            <input type="radio" name="p10" id="10"  value="1">Professor Gilmar<br>
+            <input type="radio" name="p10" id="10"  value="0">Professor seu Madruga<br>
+            <input type="radio" name="p10" id="10"  value="0">Professor Utônium<br><br></form>
+        
+       <button type="submit" id="aid" onclick="contagem()">Enviar</button>
+        <button type="button" onclick="novaJanela()">Clique para ver o gabarito</button>
+        
+        
+        
+        
+        
+        
+    
+        </center></article></div>
+    
+   
+
+
+</body>
+</html>
