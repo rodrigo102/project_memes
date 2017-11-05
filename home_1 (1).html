@@ -3,28 +3,27 @@
 <head>
     <title>Memes</title>
     <style>
-        #container{
-            border: 1px solid ;
-            margin-top: 70px;
-            margin-right: 200px;
-            margin-bottom: 100px;
-            margin-left: 200px;
-            
-            
-            
-        }
         
-        #container{
-            background-color: skyblue;
-        }
         
         #body{
             background-image: url(fundo.png)            
         }
     </style>
 
-    
+    <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script>
+        $(document).ready(function(){
+            $("#container").css({
+                "border": "1px solid",
+                "margin-top": "70px",
+                "margin-right": "200px",
+                "margin-bottom":"100px",
+                "margin-left": "200px",
+                "background-color": "gold"
+                
+            });
+        });
+        
        var pontos = 0;
 
 
