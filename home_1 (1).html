@@ -38,6 +38,19 @@
        }
                 
             })
+            
+            $("#gato").mouseenter(function(){
+                $("#gatinho").attr("src", "nyan3.png");
+            })
+            
+            $("#gato").mouseleave(function(){
+                $("#gatinho").attr("src", "nyan2.png");
+            })
+            
+            
+            
+            
+            
         });
         
        var pontos = 0;
@@ -133,7 +146,7 @@ function ver() {
             <input type="radio" name="p4" id="p4" value="0">Guitar Cat<br>
             <input type="radio" name="p4" id="p4" value="0">Singer Cat<br><br></form>
         
-        <form name="p5"><b>Qual é o nome do meme a seguir? <br><img src="nyan.jpeg"></b><br><br>
+        <form name="p5"><b>Qual é o nome do meme a seguir? <br><div id="gato"><img src="nyan2.png" id="gatinho"></div></b><br><br>
         
             <input type="radio" name="p5" id="p5" value="0">Rainbow Road<br>
             <input type="radio" name="p5" id="p5" value="0">Star<br>
