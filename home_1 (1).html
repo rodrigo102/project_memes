@@ -22,21 +22,37 @@
                 "background-color": "gold"
                 
             });
-        });
-        
-       var pontos = 0;
-
-
-       function contagem() {
-        ver();
-           if (pontos == 10){
+            $("#gabarito").click(function(){
+                window.open("Gabarito.html")
+                
+            })
+            
+            $("#aid").click(function(){
+                ver();
+                 if (pontos == 10){
                alert("Parabéns, você conseguiu 10 pontos")
            }
         alert("Sua pontuação foi: " + pontos); 
         if (pontos != 10) {
         pontos = 0;
        }
-       }
+                
+            })
+        });
+        
+       var pontos = 0;
+
+
+//       function contagem() {
+//        ver();
+//           if (pontos == 10){
+//               alert("Parabéns, você conseguiu 10 pontos")
+//           }
+//        alert("Sua pontuação foi: " + pontos); 
+//        if (pontos != 10) {
+//        pontos = 0;
+//       }
+//       }
 
 
 var q1 = 1
@@ -74,9 +90,9 @@ function ver() {
     }    
 }
         
-    function novaJanela(){
+    /*function novaJanela(){
         document.location.href="gabarito.html";
-    }
+    }*/
         
     </script>
 </head>
@@ -158,7 +174,7 @@ function ver() {
             <input type="radio" name="p10" id="10"  value="0">Professor Utônium<br><br></form>
         
        <button type="submit" id="aid" onclick="contagem()">Enviar</button>
-        <button type="button" onclick="novaJanela()">Clique para ver o gabarito</button>
+        <button type="button" id="gabarito" >Clique para ver o gabarito</button>
         
         
         
